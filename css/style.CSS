@@ -1,0 +1,142 @@
+html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	color: rgb(255, 255, 255);
+	font-family: arial; 
+	background-color: #0e3861;
+}
+.container {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url("../asset/bg.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 100px;
+	padding-top: 80px;
+	margin: 0px;
+	
+}
+.card {
+	width: 400px;
+	height: 390px;
+	border-radius: 30px;
+	backdrop-filter: blur(20px);
+	background-color: hsla(0, 0%, 100%, 0.100);
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-top: 40px;
+	padding-bottom: 50px;
+	border: 1px solid #ffffff62;
+}
+.f-header {
+	font-size: 20px;
+	text-align: center; 
+	margin: 0;
+	margin-bottom: 40px;
+}
+.f-subheader {
+	font-size: 14px;
+	margin: 0;
+	font-weight: normal;
+	margin-bottom: 12px;
+}
+.input-group {
+	display: flex;
+	gap: 24px;
+	margin-bottom: 28px;
+}
+.input-field {
+	display: flex;
+	flex-direction: column;
+}
+.input-header {
+	width: 160px;
+	height: 16px;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	background-color:#0F63B7;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border: 1px solid #ffffff80;
+	border-bottom: none;
+}
+.input-header p {
+	font-size: 14px;
+}
+.input {
+	width: 160px;
+	height: 20px;
+	font-size: 16px;
+	padding: 10px;
+	background-color: #242B39;
+	color: #B5B5B5;
+	border: 1px solid #ffffff80;
+	outline: none;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-top: none;
+}
+.button-group {
+	display: flex;
+	gap: 37px;
+	margin-bottom: 24px;
+	
+}
+.btn {
+    width: 106px;
+    height: 40px;
+    color: white;
+    background-color: #085CB5;
+    border-color: #ABABAB;
+    border-radius: 8px;
+	cursor: pointer;
+}
+.formula-group {
+	display: flex;
+	flex-direction: column;
+}
+.formula-header {
+	width: 370px;
+	height: 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	background-color:#0F63B7;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border: 1px solid #ffffff80;
+	border-bottom: none;
+}
+.formula-header p {
+	font-size: 14px;
+}
+.output-formula {
+	width: 370px;
+	height: 20px;
+	font-size: 16px;
+	padding: 10px;
+	background-color: #242B39;
+	color: #B5B5B5;
+	border: 1px solid #ffffff80;
+	outline: none;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-top: none;
+}
+
+.footer-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 190px;
+	margin-top:30px;
+	font-size: 14px;
+	font-family: monospace;
+}

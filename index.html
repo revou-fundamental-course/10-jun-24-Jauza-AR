@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Konversi Suhu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/10-jun-24-Jauza-AR/css/style.CSS">
+    <script src="/10-jun-24-Jauza-AR/js/script.js"></script>
+</head>
+
+<body>
+    <main class="container">
+        <div class="card">
+            <!-- header -->
+            <header>
+                <h1 class="f-header">Konversi Celsius (°C) ke
+                    <div>Fahrenheit (°F)</div>
+                </h1>
+            </header>
+            <!-- konten -->
+            <section>
+                <h3 class="f-subheader">Konversi Suhu</h3>
+            </section>
+            <!-- celcius -->
+            <section class="input-group">
+                    <div class="input-field">
+                        <div class="input-header">
+                        <p id="c">Celcius (&deg;C)</p>
+                        </div>
+                        <input id="input" class="input" type="number" placeholder="Masukan Nilai">
+                    </div>
+            <!-- fahrenheit -->
+                    <div class="input-field">
+                        <div class="input-header">
+                        <p id="f">Fahrenheit (&deg;F)</p>
+                        </div>
+                        <input id="hasilKonversi" class="input" type="number" placeholder="Hasil Konversi">
+                    </div>     
+            </section>
+        <!-- button -->
+        <section class="button-group">
+                <button class="btn" onclick="konvert()">Konversi</button>
+                <button class="btn" onclick="reverse()">Reverse</button>
+                <button class="btn" onclick="reset()">Reset</button>
+        </section>
+        <section>
+            <h3 class="f-subheader">Cara Kalkulasi</h3>
+        </section>
+        <!-- formula -->
+        <section class="formula-group">
+            <div class="formula-header">
+                <p>Formula</p>
+                </div>
+                <input id="idFormula" class="output-formula" type="text" placeholder="">
+            </div>
+        </section>
+        </div>
+        <!-- footer -->
+        <footer>
+            <div class="footer-container">
+                <p>Konversi Suhu</p>
+                <p style=" display: flex; align-items: center;"><img src="../10-jun-24-Jauza-AR/asset/profile.png" style="width: 32px; height: 32px;">Muhami Jauza Alma Ramadhan</p>
+            </div>  
+        </footer>
+    </main>
+</body>
+</html>
